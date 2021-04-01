@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./styles.css";
 
 export default function Weatherapp() {
@@ -48,16 +49,7 @@ export default function Weatherapp() {
                   <span className="temp" id="temp">
                     0
                   </span>
-                  <span className="units">
-                    <a href="#" id="celsius-link">
-                      {" "}
-                      °C
-                    </a>{" "}
-                    |
-                    <a href="#" id="fahrenheit-link">
-                      °F
-                    </a>
-                  </span>
+                  <span className="units">°C | °F</span>
                 </div>
               </div>
             </div>
